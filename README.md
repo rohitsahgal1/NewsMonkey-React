@@ -4,6 +4,11 @@
 	<b >NewsMonkey </b>  is a web application that provides users with the latest news from around the world. The app utilizes the NewsAPI to gather news articles from a variety of reputable sources and presents them to users in an easy-to-use interface. One of the key features of NewsMonkey is its advanced filtering options, which allow users to sort news articles by category, such as sports, entertainment, politics, and more. The app also incorporates infinite scrolling functionality, which enables users to seamlessly browse through a virtually endless stream of news articles without interruption.
 </div>
 
+# Hiding my api-key
+I added an .env file to the root of my project (I named it .env.local).
+In the file, I just put REACT_APP_API_KEY = 'my-secret-api-key'.
+I didn't uploaded .env file on github as I don't want to public my api-key.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
